@@ -1,0 +1,86 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-image: url(img/fon.jpg);
+}
+
+#contain{
+   margin: 0 auto;
+   width: 1200px;
+   height: 600px;
+   margin-top: 150px; 
+}
+
+.header{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -230px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    color: rgb(241, 73, 7);
+}
+
+.gif{
+    margin-top: 0;
+    margin-left: -5px;
+}
+
+#table{
+   width: 350px;
+   height: 420px;
+   display: inline-block;
+   border:3px solid rgba(39, 44, 48, 0.36); 
+    background: #171A1D;
+    margin-left: 20px;
+}
+
+#table .head{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 60px;
+    line-height: 50px;
+}
+
+
+
+.cta{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background: #FF7F50;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #171A1D;
+}
+
+.linkk{
+    text-decoration: none;
+    color: #171A1D;
+    border-bottom: 0.7px solid #171A1D;
+}
+
+.yellow{
+    border-bottom: 5px solid #FF7F50;
+}
+
+#table.pro {
+  background: #15181B;
+}
+
+
+
+
+
+
+
+
+
