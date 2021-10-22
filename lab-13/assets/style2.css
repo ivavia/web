@@ -1,0 +1,31 @@
+body{
+    background-color: #f8c5da;
+    font-size: 24px;
+}
+
+.header{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.t1{
+    color: #CD5C5C; 
+}
+
+.t2{
+    color: #8B0000;
+}
+
+.bor{
+    border: 1px solid #000;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.t3{
+    color: #32CD32;
+}
+
+
+
