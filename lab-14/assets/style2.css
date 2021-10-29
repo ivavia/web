@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/fonnew.jpg);
+    font-size: 30px;
+}
+
+.ans{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 500px;
+}
+
+.f{
+    margin-left: 170px;
+    margin-top: 30px;
+    border-radius: 90px/50px;
+    background-color: #fff;
+    border: 9px solid #000;
+    width: 75%;
+}
