@@ -1,0 +1,36 @@
+h1 {
+  position: absolute;
+  margin-top: 30vh;
+  width: 100%;
+  text-align: center;
+  font-size: 333%;
+  font-family: sans-serif;
+  color: #f7e116;
+  opacity: 2;
+}
+
+canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.knopka{
+    position: absolute;
+    margin-left: -950px;
+    bottom: 200px;
+}
+
+a.knopka {
+  
+  font-size: 22px;
+  color:  #5c5c5c; 
+  text-decoration: none; 
+  user-select: none; 
+  background: #ffe70d; 
+  padding: .7em 1.5em; 
+  outline: none;
+} 
+a.knopka:hover { background: #fced60; } 
+a.knopka:active { background: #fae100; } 
