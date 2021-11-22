@@ -1,0 +1,249 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+	*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	:focus,:active{outline: none;}
+	a:focus,a:active{outline: none;}
+	nav,footer,header,aside{display: block;}
+	html,body{
+	
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	}
+	input,button,textarea{font-family:inherit;}
+	input::-ms-clear{display: none;}
+	button{cursor: pointer;}
+	button::-moz-focus-inner {padding:0;border:0;}
+	a, a:visited{text-decoration: none;}
+	a:hover{text-decoration: none;}
+	ul li{list-style:none;} 
+	img{vertical-align: top;}
+	body{
+	font-family: 'PT Sans', sans-serif;
+	height: 100%;
+	}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+  background-color: rgb(40, 42, 45);
+  width: 100%;
+  height: 10%;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+.clearfix {
+    content:" ";
+    display:table;
+    clear:both;
+}
+.header-logo{
+  display: block;
+  margin-top: 12px;
+}
+.logo-text,
+.logo-img {
+  
+  text-align: center;
+}
+.logo-text {
+  margin-left: 20px;
+}
+.logo-title {
+  font-size: 32px;
+  text-align: center;
+  font-family: "NewBaskervilleC";
+  color: rgb(255, 255, 255);  
+}
+.logo-slogan {
+  margin: 0;
+  font-size: 11px;
+  font-family: "PTSans";
+  color: rgba(235, 244, 255, 0.251);
+}
+
+/* CSS Document */
+html, body{
+	margin:0;
+	max-width:100%;
+	height:100%;
+	overflow:hidden;
+}
+main{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:82%;
+	width:100vw;
+}
+section{
+	position:relative;
+	height:100%;
+	align-items:center;
+	justify-content:center;
+	box-sizing:border-box;
+	text-align:center;
+	flex:1;
+}
+.cont_title{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:300px;
+	text-align:center;
+	margin-top:5vh;
+}
+.cont_title h2{
+	color: black;
+	text-transform:uppercase;
+	font-size:2.5vw;
+	margin:0;
+	vertical-align:middle;
+}
+.cont_title h3{
+	text-transform:uppercase;
+	font-size:1.3vw;
+}
+.cont_desc{
+	position:relative;
+	display:block;
+	text-align:center;
+	width:100%;
+	height:auto;
+	margin:auto;
+	padding:30px 15%;
+	box-sizing:border-box;
+}
+
+.cont_desc p{
+	margin:0;
+	font-size:20px;
+}
+.btn{
+	font-size: 28px;
+}
+.btn:hover{
+	font-size: 30px;
+}
+section:hover{
+	flex: 1.8;
+	transition:flex 0.4s;
+}
+section:hover > .cont_title h2{
+	font-size: 5vw;
+	transition:font-size 0.4s;}
+section:hover > .cont_title h3{
+	font-size: 1.5vw;
+	transition:all 0.4s;}
+.cont_desc{opacity: 0;}
+section:hover > .cont_desc{
+	opacity: 1;
+	transition-delay:0.5s;
+	transition:opacity 0.8s;}
+section{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.Spain {
+	background-image: url("../img/1.jpg")}
+.Italy {
+	background-image: url("../img/4.jpg")}
+.UAE {
+	background-image: url("../img/3.jpg")}
+.Thailand {
+	background-image: url("../img/2.jpg")}
+.Czech {
+	background-image: url("../img/5.jpg")}
+.cont_title h2{
+	font-family:'Roboto Condensed',sans-serif;
+	color:#161515;
+	text-shadow:1px 2px 5px rgba(179, 58, 235, 0.5);
+} 
+.cont_title h3{
+	font-family:'Roboto Condensed',sans-serif;
+	color:#2e2b2b;
+	text-shadow:1px 2px 5px rgba(255,217,15,0.5);}
+.cont_desc p{
+	font-family:'Roboto Condensed',sans-serif;
+	color:#000000;}
+.cont_desc{
+	background-color:rgba(255,217,15,0.8);}
+main:hover > section{
+	filter:brightness(22%);}
+main:hover > section:hover{
+	filter:brightness(100%);}
+section{transition:all 1.1s;}
+.footer {
+	background-color: rgb(40, 42, 45);
+	width: 100%;
+	height: 8%;
+  }
+.footer-date {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "NewBaskervilleC";
+  color: rgb(255, 255, 255);
+  line-height: 62px;  
+
+}
+.footer-logo {
+  width: 28px;
+  height: 34px;
+  float: right;
+  margin-top: 14px;
+}
+.footer-text { 
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(107, 112, 118);
+  float: right;
+  margin-right: 12px;
+  line-height: 62px; 
+}
+.text-color{
+  color: #b5b9be;   
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 12px;
+  font-family: "PTSans";
+  color: rgb(170, 171, 172);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+.nav-item :hover{
+	color: rgb(24, 25, 26);
+	text-shadow: black;
+	transition: 0.5s;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 40px;
+}
+
+
+
